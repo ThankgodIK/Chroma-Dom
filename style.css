@@ -1,0 +1,40 @@
+body {
+  background-color: #e2dddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0, auto;
+  max-width: 800px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  text-align: center;
+  background-color: white;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+#my__color {
+  background-color: green;
+  width: 130px;
+  height: 150px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#my__btn {
+  margin-top: 16px;
+  background-color: gray;
+  color: white;
+  border: 0;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 5px;
+}
